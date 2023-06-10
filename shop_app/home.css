@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(201, 176, 176);
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 600;
+  }
+
+  nav img{
+    height: 1.6rem;
+  }
+
+  .hm{
+    display: flex;
+  
+  }
+
+  .hm h2{
+    margin-left: 5px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+
+  .mua img{
+    max-width: 90%;
+    height: auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  }
+  .r1{
+    width: 80%;
+    height: 2.7rem;
+    border-radius: 7px;
+    background-color: rgb(223, 46, 46);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto 10px;
+  border: none;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #customProduct {
+    width: 78%;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: rgba(230, 226, 226, 0.699);
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+  border: none;
+  color: Black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .h{
+    grid-area: h;
+  }
+  .i{
+    grid-area: i;
+  }
+  .j{
+    grid-area: j;
+  }
+  .k{
+    grid-area: k;
+  }
+  .l{
+    grid-area: l;
+  }
+  .m{
+    grid-area: m;
+  }
+  .n{
+    grid-area: n;
+  }
+  .o{
+    grid-area: o;
+  }
+  .p{
+    grid-area: p;
+  }
+  .q{
+    grid-area: q;
+  }
+  .r{
+    grid-area: r;
+  }
+  .s{
+    grid-area: s;
+  }
+  .t{
+    grid-area: t;
+  }
+  
+  .container{
+  margin: auto;
+    padding: 0;
+    display: grid;
+    width: 85%;
+    grid-gap: 5px;
+    grid-template-columns: repeat(minmax(100px,1fr),auto-fit);
+    grid-template-rows: 2.5rem 2.5rem 2.5rem 2.5rem 2.5rem;
+   grid-template-areas: 
+   "h h h i i i"
+   "j j k k l l"
+   "m m n n o o"
+   "p p q q r r"
+   "s s s t t t"
+   ;
+  }
+
+  .container input{
+    border-radius: 5px;
+    border: none;
+    color: black;
+  }
+
+  .container input:hover{
+background-color: rgb(51, 255, 0);
+  }
+
+.ft{
+  width: 100%;
+  position: relative;
+}
+
+  .cr{
+    color: aliceblue;
+    height: 2rem;
+    width: 6rem;
+    background-color: red;
+    border-radius: 1.5rem;
+    border: none;
+    position: relative;
+    margin-top: 85px;
+    right: 20px;
+    
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .selected{
+    background-color: greenyellow;
+  }
+
+  footer{
+    margin-top: 6rem;
+    height:3rem;
+  }

@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(240, 61, 61);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .logo{
+    display: flex;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .menu a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: #666;
+  }
+
+  .menu img{
+    padding-right: 1.3rem;
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .cart{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  }
+
+  .bott{
+    display: flex;
+    margin-bottom: 0rem;
+    padding-right: 0.5rem;
+  }
+
+  .bott img{
+    height: 4rem;
+   padding-right: .5rem ;
+  }
+  
+  .bott h1{
+    color: aliceblue;
+    font-size: 1rem;
+    transition: ease-in;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
